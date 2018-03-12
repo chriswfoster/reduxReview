@@ -12,10 +12,10 @@ class ComponentOne extends Component {
   }
 
   onChangeOne(val) {
-    this.setState({ firstNumber: parseInt(val) })
+    this.setState({ firstNumber: parseInt(val, 10) })
   }
   onChangeTwo(val) {
-    this.setState({ secondNumber: parseInt(val) })
+    this.setState({ secondNumber: parseInt(val, 10) })
   }
 
   render() {
