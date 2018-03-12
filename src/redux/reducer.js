@@ -22,7 +22,7 @@ export default function(state = initialState, action) {
 
 //Action Creator
 export function addNumbers(first, second) {
-  console.log(first, second)
+
   return {
     type: ADD_NUMBER,
     payload: first + second
